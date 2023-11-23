@@ -63,12 +63,13 @@ namespace ArraysAndLists
              * display the numbers in your "odds" list
              */
             Console.WriteLine($"Here are the odd numbers in your list below");
-            foreach(var items in odds)
+            for (int i = 0; i < odds.Count; i++)
             {
-                Console.WriteLine(items);
+                var item = odds[i];
+                Console.WriteLine(item);
             }
-               
-            
+
+
 
         }
        
